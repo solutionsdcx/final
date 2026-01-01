@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SolutionsDCX | IT, AI, ERP & Smart Infrastructure Solutions</title>
+<meta name="description" content="SolutionsDCX provides IT, AI, ERP, LMS, Digital Classrooms, Construction Management Software and smart business solutions for institutions and enterprises.">
+<style>
+:root{
+  --primary:#3b82f6;
+  --bg:#020b1f;
+  --card:#0b1636;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Segoe UI, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+nav{
+  background:#050d24;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+}
+nav a{
+  color:var(--text);
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:500;
+}
+.hero{
+  background:linear-gradient(135deg,#0f52ba,#020b1f);
+  padding:120px 20px;
+  text-align:center;
+}
+.hero h1{font-size:3.2rem}
+.hero p{
+  font-size:1.2rem;
+  max-width:900px;
+  margin:auto;
+  color:#d1d5db;
+}
+section{
+  padding:80px 20px;
+  max-width:1200px;
+  margin:auto;
+}
+h2{text-align:center;color:#60a5fa;margin-bottom:40px;}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+}
+.card{
+  background:var(--card);
+  padding:25px;
+  border-radius:16px;
+  box-shadow:0 15px 30px rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+.card:hover{transform:translateY(-8px);}
+.list{
+  max-width:900px;
+  margin:auto;
+  line-height:1.9;
+}
+.cta{
+  background:linear-gradient(135deg,#1e40af,#020b1f);
+  text-align:center;
+  padding:80px 20px;
+}
+.cta button{
+  padding:15px 45px;
+  border:none;
+  border-radius:30px;
+  background:#3b82f6;
+  color:white;
+  font-weight:bold;
+}
+.contact{
+  background:#050d24;
+  padding:90px 20px;
+}
+.form{
+  background:var(--card);
+  max-width:420px;
+  margin:auto;
+  padding:40px;
+  border-radius:18px;
+}
+.form input,.form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:14px;
+  background:#020b1f;
+  border:1px solid #1e3a8a;
+  color:white;
+}
+.form button{
+  width:100%;
+  padding:14px;
+  background:#3b82f6;
+  color:white;
+  border:none;
+  font-weight:bold;
+}
+footer{
+  background:#020617;
+  color:#9ca3af;
+  text-align:center;
+  padding:30px;
+}
+footer a{color:#9ca3af;text-decoration:none}
+</style>
+</head>
+<body>
+<nav>
+  <strong>SolutionsDCX</strong>
+  <div>
+    <a href="#solutions">Solutions</a>
+    <a href="#industries">Industries</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>SolutionsDCX</h1>
+  <p>Empowering schools, institutions, businesses and construction firms with AI-driven IT, ERP systems, digital classrooms and smart infrastructure solutions.</p>
+</div>
+
+<section id="solutions">
+<h2>Our Solutions</h2>
+<div class="grid">
+  <div class="card"><h3>ERP & LMS</h3><p>ERP, LMS, billing and workflow automation.</p></div>
+  <div class="card"><h3>Digital Classrooms</h3><p>AI smart boards and virtual learning.</p></div>
+  <div class="card"><h3>AI & IT Services</h3><p>Web platforms, AI automation and cloud services.</p></div>
+  <div class="card"><h3>Construction Software</h3><p>Billing, BOQ and project tracking systems.</p></div>
+  <div class="card"><h3>Design & Contracts</h3><p>Public & private building contracts.</p></div>
+</div>
+</section>
+
+<section id="industries">
+<h2>Industries We Serve</h2>
+<div class="list">
+<ul>
+  <li>Educational Institutions</li>
+  <li>Enterprises & Startups</li>
+  <li>Builders & Architects</li>
+  <li>Infrastructure Projects</li>
+  <li>AI-driven Businesses</li>
+</ul>
+</div>
+</section>
+
+<div class="cta">
+<h2>Need IT, ERP or AI Solutions?</h2>
+<button onclick="document.getElementById('contact').scrollIntoView()">Contact Us</button>
+</div>
+
+<section id="contact" class="contact">
+<div class="form">
+<h2>Contact Us</h2>
+<p><strong>Email:</strong><br>
+<a href="mailto:solutionsdcx@gmail.com">solutionsdcx@gmail.com</a></p>
+<form action="mailto:solutionsdcx@gmail.com" method="post" enctype="text/plain">
+  <input name="Name" placeholder="Your Name" required>
+  <input type="email" name="Email" placeholder="Your Email" required>
+  <textarea name="Requirement" placeholder="Your Requirement"></textarea>
+  <button type="submit">Send Inquiry</button>
+</form>
+</div>
+</section>
+
+<footer>
+© 2026 SolutionsDCX | IT, AI & Smart Infrastructure Solutions
+</footer>
+</body>
+</html>
